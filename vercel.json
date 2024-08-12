@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "package.json",  // Cambiado para usar la configuración de scripts en package.json
+        "src": "package.json",
         "use": "@vercel/static-build"
       }
     ],
@@ -11,9 +11,5 @@
         "src": "/(.*)",
         "dest": "/index.html"
       }
-    ],
-    "env": {
-      "REACT_APP_API_URL": "https://tu-api-url.com"  // Variables de entorno, si es necesario
-    }
+    ]
   }
-  
