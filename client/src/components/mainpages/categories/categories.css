@@ -1,0 +1,79 @@
+.categories{
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+.categories form{
+    width: 290px;
+    margin-bottom: 20px;
+}
+.categories label{
+    display: block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.categories input, button{
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+.categories input{
+    width: 250px;
+    color: #d25a2a;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+}
+
+p {
+    color: rgb(8, 0, 0);
+    width: 300px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid rgb(253, 253, 253);
+
+  }
+
+.btn {
+    border: none; 
+    color: white; 
+    padding: 14px 20px; 
+    cursor: pointer; 
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px; 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .primary {background-color: #007bff;} 
+  .primary:hover {background: #0b7dda;}
+  
+  .secondary {background-color: #e7e7e7; color: black;} 
+  .secondary:hover {background: #ddd;}
+  
+  .success {background-color: #04AA6D;} 
+  .success:hover {background-color: #46a049;}
+  
+  .warning {background-color: #ff9800;} 
+  .warning:hover {background: #e68a00;}
+  
+  .danger {background-color: #f44336;} 
+  .danger:hover {background: #da190b;}
+
+.categories .row{
+    min-width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
