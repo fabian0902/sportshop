@@ -4,6 +4,7 @@ import axios from 'axios';
 
 
 axios.defaults.withCredentials = true 
+const apiUrl = process.env.REACT_APP_API_URL || '';
 
 function Login() {
 
@@ -19,7 +20,7 @@ function Login() {
   const loginSubmit = async  e =>{
     e.preventDefault()
     try { 
-      await axios.post("/user/login",{...user} ) //post
+      await axios.post(`${apiUrl}/user/login`,{...user} ) //post
       console.log(user)
       localStorage.setItem("firstLogin", true) //xD
      console.log("aca pasa")
