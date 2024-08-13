@@ -1,6 +1,5 @@
-<<<<<<< ⌬ Tabnine Instruct <<<<<<<
+
 import React from 'react';
->>>>>>> ⌬ Tabnine Instruct >>>>>>>
 import ReactDOM from 'react-dom'; // Importa el nuevo módulo
 import './index.css';
 import App from './App';
