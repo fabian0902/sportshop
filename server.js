@@ -8,7 +8,7 @@ const path = require("path");
 
 const app = express();
 var corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://sportshop-41fa8fe33e74.herokuapp.com/',
   optionsSuccessStatus: 200,
   credentials: true,
 };
