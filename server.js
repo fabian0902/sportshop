@@ -65,17 +65,7 @@ if(process.env.NODE_ENV === "production"){
     })
 }
 
-const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:3000'
-});
 
-api.post('/user/login', userCredentials)
-  .then(response => {
-    console.log(response.data);
-  })
-  .catch(error => {
-    console.error(error);
-  });
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
